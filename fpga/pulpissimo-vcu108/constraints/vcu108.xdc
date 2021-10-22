@@ -109,8 +109,8 @@ set_property -dict {PACKAGE_PIN R23 IOSTANDARD LVCMOS12 DRIVE 8} [get_ports pad_
 set_property -dict {PACKAGE_PIN R22 IOSTANDARD LVCMOS12 DRIVE 8} [get_ports pad_pmod1_7]
 
 ## UART
-set_property -dict {PACKAGE_PIN BE24 IOSTANDARD LVCMOS18} [get_ports pad_uart_rx]
-set_property -dict {PACKAGE_PIN BC24 IOSTANDARD LVCMOS18} [get_ports pad_uart_tx]
+set_property -dict {PACKAGE_PIN BE24 IOSTANDARD LVCMOS18} [get_ports pad_uart_tx]
+set_property -dict {PACKAGE_PIN BC24 IOSTANDARD LVCMOS18} [get_ports pad_uart_rx]
 set_property -dict {PACKAGE_PIN BD22 IOSTANDARD LVCMOS18} [get_ports pad_uart_rts]
 set_property -dict {PACKAGE_PIN BF24 IOSTANDARD LVCMOS18} [get_ports pad_uart_cts]
 
